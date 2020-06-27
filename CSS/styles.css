@@ -1,0 +1,192 @@
+body{
+	background-color: black;
+}
+img{
+	max-width: 100%;
+	border: 2px white solid;
+}
+.navbar-brand{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+/* .rating{
+	font-weight: bold;
+}
+
+.release{
+	font-weight: bold;
+} */
+
+.eachMovie{
+	background-color: black;
+	color: white;
+}
+.btnModal{
+	background-color: black;
+	margin-bottom: 35px;
+	border: black;
+}
+.modal-content{
+	color: black;
+	padding: 2px;
+	min-width: 656px;
+}
+.moviePosterInModal{
+	padding: 12px;
+}
+.movieName{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Carrois Gothic SC', sans-serif;
+}
+.btn-primary{
+	margin: 5px;
+	padding: 5px;
+	background: transparent;
+	color: #5EADFF;
+	border: 1px solid #5EADFF; 
+}
+#movieGenreLabel{
+	color: white;
+}
+.single_column .join{
+	text-align: center;
+}
+body {
+	background: #111 no-repeat;
+	background-image: -webkit-gradient(radial, 50% 0, 150, 50% 0, 300, from(#444), to(#111));
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	color: #FFF;
+}
+
+	h2 a {
+		color: #0184e3;
+		text-decoration: none;
+	}
+
+		h2 a:hover {
+			color: #0184e3;
+			text-decoration: underline;
+		}
+
+	h3 a {
+		color: #00e8ff;
+		text-decoration: none;
+	}
+
+		h3 a:hover {
+			color: #00e8ff;
+		}
+
+.container {
+	width: 960px;
+	margin: auto;
+	color: #FFF;
+	font-size: 25px;
+}
+
+	.container h3 {
+		font-size: 20px;
+	}
+
+#apiDiv {
+	border: dashed 2px #CCC;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+	#apiDiv input, #apiDiv button {
+		font-size: 25px;
+		color: #000;
+	}
+
+	#apiDiv h4 {
+		margin: 10px 0;
+	}
+
+	#apiDiv .imageDiv {
+		text-align: center;
+	}
+
+		#apiDiv .imageDiv img {
+			display: none;
+		}
+
+	#apiDiv #message {
+		padding-top: 10px;
+	}
+
+		#apiDiv #message .resultDiv {
+			background: #FFF;
+			display: inline-block;
+		}
+
+			#apiDiv #message .resultDiv > p {
+				color: #000;
+				display: inline-block;
+				width: 95%;
+				padding: 10px;
+				border-bottom: double 2px #CCC;
+			}
+
+			#apiDiv #message .resultDiv .result {
+				width: 23%;
+				height: 300px;
+				padding: 6px;
+				float: left;
+				text-align: center;
+				cursor: pointer;
+			}
+
+				#apiDiv #message .resultDiv .result img {
+					width: 75%;
+				}
+
+				#apiDiv #message .resultDiv .result p {
+					margin: 0;
+				}
+
+					#apiDiv #message .resultDiv .result p a {
+						color: #808080;
+						text-decoration: none;
+						font-size: 20px;
+						height: 100px;
+					}
+
+						#apiDiv #message .resultDiv .result p a:hover {
+							text-decoration: underline;
+						}
+
+#myModal {
+	color: #000;
+}
+
+#reset {
+	padding: 5px 10px;
+	background: #4CAF50;
+	border: none;
+	color: #FFF;
+	cursor: pointer;
+}
+
+	#reset:hover {
+		color: #4CAF50;
+		background: #FFF;
+	}
