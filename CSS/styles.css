@@ -30,7 +30,7 @@ img{
 }
 .modal-content{
 	color: black;
-	padding: 2px;
+	padding: 4px;
 	min-width: 656px;
 }
 .moviePosterInModal{
@@ -42,11 +42,11 @@ img{
 	font-family: 'Carrois Gothic SC', sans-serif;
 }
 .btn-primary{
-	margin: 5px;
-	padding: 5px;
+	margin: 7px;
+	padding: 7px;
 	background: transparent;
 	color: #5EADFF;
-	border: 1px solid #5EADFF; 
+	border: 2px solid #5EADFF; 
 }
 #movieGenreLabel{
 	color: white;
